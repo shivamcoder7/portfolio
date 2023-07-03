@@ -54,7 +54,7 @@ function makeAnimation(key){
     var currBtn=document.querySelector("."+key);
     currBtn.classList.add("pressed");
     setTimeout(function(){
-        currBtn.remove("pressed");
+        currBtn.classList.remove("pressed");
     },100);
 }
 
